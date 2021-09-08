@@ -12,7 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -73,6 +73,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalcularGananciaSocio.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +112,12 @@
     <Compile Include="Problema2.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Problema3.Designer.vb">
+      <DependentUpon>Problema3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Problema3.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -126,6 +133,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Problema2.resx">
       <DependentUpon>Problema2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Problema3.resx">
+      <DependentUpon>Problema3.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
