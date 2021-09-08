@@ -38,7 +38,7 @@ Partial Class Problema2
         '
         'btnCalcular
         '
-        Me.btnCalcular.Location = New System.Drawing.Point(216, 212)
+        Me.btnCalcular.Location = New System.Drawing.Point(249, 246)
         Me.btnCalcular.Name = "btnCalcular"
         Me.btnCalcular.Size = New System.Drawing.Size(75, 23)
         Me.btnCalcular.TabIndex = 0
@@ -47,7 +47,7 @@ Partial Class Problema2
         '
         'txtIngreseEdad
         '
-        Me.txtIngreseEdad.Location = New System.Drawing.Point(39, 61)
+        Me.txtIngreseEdad.Location = New System.Drawing.Point(72, 95)
         Me.txtIngreseEdad.Name = "txtIngreseEdad"
         Me.txtIngreseEdad.Size = New System.Drawing.Size(118, 20)
         Me.txtIngreseEdad.TabIndex = 1
@@ -55,7 +55,7 @@ Partial Class Problema2
         'lblTitulo
         '
         Me.lblTitulo.AutoSize = True
-        Me.lblTitulo.Location = New System.Drawing.Point(192, 9)
+        Me.lblTitulo.Location = New System.Drawing.Point(221, 9)
         Me.lblTitulo.Name = "lblTitulo"
         Me.lblTitulo.Size = New System.Drawing.Size(131, 13)
         Me.lblTitulo.TabIndex = 2
@@ -64,7 +64,7 @@ Partial Class Problema2
         'lblIngreseEdad
         '
         Me.lblIngreseEdad.AutoSize = True
-        Me.lblIngreseEdad.Location = New System.Drawing.Point(36, 45)
+        Me.lblIngreseEdad.Location = New System.Drawing.Point(69, 79)
         Me.lblIngreseEdad.Name = "lblIngreseEdad"
         Me.lblIngreseEdad.Size = New System.Drawing.Size(121, 13)
         Me.lblIngreseEdad.TabIndex = 3
@@ -73,7 +73,7 @@ Partial Class Problema2
         'lblEdadMama
         '
         Me.lblEdadMama.AutoSize = True
-        Me.lblEdadMama.Location = New System.Drawing.Point(367, 45)
+        Me.lblEdadMama.Location = New System.Drawing.Point(400, 79)
         Me.lblEdadMama.Name = "lblEdadMama"
         Me.lblEdadMama.Size = New System.Drawing.Size(36, 13)
         Me.lblEdadMama.TabIndex = 5
@@ -81,7 +81,7 @@ Partial Class Problema2
         '
         'txtEdadMama
         '
-        Me.txtEdadMama.Location = New System.Drawing.Point(370, 61)
+        Me.txtEdadMama.Location = New System.Drawing.Point(403, 95)
         Me.txtEdadMama.Name = "txtEdadMama"
         Me.txtEdadMama.ReadOnly = True
         Me.txtEdadMama.Size = New System.Drawing.Size(100, 20)
@@ -90,7 +90,7 @@ Partial Class Problema2
         'lblEdadAna
         '
         Me.lblEdadAna.AutoSize = True
-        Me.lblEdadAna.Location = New System.Drawing.Point(367, 84)
+        Me.lblEdadAna.Location = New System.Drawing.Point(400, 118)
         Me.lblEdadAna.Name = "lblEdadAna"
         Me.lblEdadAna.Size = New System.Drawing.Size(26, 13)
         Me.lblEdadAna.TabIndex = 7
@@ -98,7 +98,7 @@ Partial Class Problema2
         '
         'txtEdadAna
         '
-        Me.txtEdadAna.Location = New System.Drawing.Point(370, 100)
+        Me.txtEdadAna.Location = New System.Drawing.Point(403, 134)
         Me.txtEdadAna.Name = "txtEdadAna"
         Me.txtEdadAna.ReadOnly = True
         Me.txtEdadAna.Size = New System.Drawing.Size(100, 20)
@@ -107,7 +107,7 @@ Partial Class Problema2
         'lblEdadAlberto
         '
         Me.lblEdadAlberto.AutoSize = True
-        Me.lblEdadAlberto.Location = New System.Drawing.Point(367, 123)
+        Me.lblEdadAlberto.Location = New System.Drawing.Point(400, 157)
         Me.lblEdadAlberto.Name = "lblEdadAlberto"
         Me.lblEdadAlberto.Size = New System.Drawing.Size(40, 13)
         Me.lblEdadAlberto.TabIndex = 9
@@ -115,7 +115,7 @@ Partial Class Problema2
         '
         'txtEdadAlberto
         '
-        Me.txtEdadAlberto.Location = New System.Drawing.Point(370, 139)
+        Me.txtEdadAlberto.Location = New System.Drawing.Point(403, 173)
         Me.txtEdadAlberto.Name = "txtEdadAlberto"
         Me.txtEdadAlberto.ReadOnly = True
         Me.txtEdadAlberto.Size = New System.Drawing.Size(100, 20)
@@ -124,7 +124,7 @@ Partial Class Problema2
         'lblEdadJuan
         '
         Me.lblEdadJuan.AutoSize = True
-        Me.lblEdadJuan.Location = New System.Drawing.Point(367, 162)
+        Me.lblEdadJuan.Location = New System.Drawing.Point(400, 196)
         Me.lblEdadJuan.Name = "lblEdadJuan"
         Me.lblEdadJuan.Size = New System.Drawing.Size(30, 13)
         Me.lblEdadJuan.TabIndex = 11
@@ -132,7 +132,7 @@ Partial Class Problema2
         '
         'txtEdadJuan
         '
-        Me.txtEdadJuan.Location = New System.Drawing.Point(370, 178)
+        Me.txtEdadJuan.Location = New System.Drawing.Point(403, 212)
         Me.txtEdadJuan.Name = "txtEdadJuan"
         Me.txtEdadJuan.ReadOnly = True
         Me.txtEdadJuan.Size = New System.Drawing.Size(100, 20)
@@ -142,7 +142,7 @@ Partial Class Problema2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(520, 247)
+        Me.ClientSize = New System.Drawing.Size(600, 366)
         Me.Controls.Add(Me.lblEdadJuan)
         Me.Controls.Add(Me.txtEdadJuan)
         Me.Controls.Add(Me.lblEdadAlberto)
@@ -155,6 +155,7 @@ Partial Class Problema2
         Me.Controls.Add(Me.lblTitulo)
         Me.Controls.Add(Me.txtIngreseEdad)
         Me.Controls.Add(Me.btnCalcular)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Problema2"
         Me.Text = "Problema2"
         Me.ResumeLayout(False)

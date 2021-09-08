@@ -43,7 +43,7 @@ Partial Class Problema3
         'lblTitulo
         '
         Me.lblTitulo.AutoSize = True
-        Me.lblTitulo.Location = New System.Drawing.Point(164, 9)
+        Me.lblTitulo.Location = New System.Drawing.Point(173, 9)
         Me.lblTitulo.Name = "lblTitulo"
         Me.lblTitulo.Size = New System.Drawing.Size(253, 13)
         Me.lblTitulo.TabIndex = 0
@@ -52,7 +52,7 @@ Partial Class Problema3
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(45, 52)
+        Me.Label2.Location = New System.Drawing.Point(73, 76)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(95, 13)
         Me.Label2.TabIndex = 1
@@ -60,14 +60,14 @@ Partial Class Problema3
         '
         'txtCapital1
         '
-        Me.txtCapital1.Location = New System.Drawing.Point(48, 68)
+        Me.txtCapital1.Location = New System.Drawing.Point(76, 92)
         Me.txtCapital1.Name = "txtCapital1"
         Me.txtCapital1.Size = New System.Drawing.Size(100, 20)
         Me.txtCapital1.TabIndex = 2
         '
         'txtCapital2
         '
-        Me.txtCapital2.Location = New System.Drawing.Point(48, 107)
+        Me.txtCapital2.Location = New System.Drawing.Point(76, 131)
         Me.txtCapital2.Name = "txtCapital2"
         Me.txtCapital2.Size = New System.Drawing.Size(100, 20)
         Me.txtCapital2.TabIndex = 4
@@ -75,7 +75,7 @@ Partial Class Problema3
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(45, 91)
+        Me.Label3.Location = New System.Drawing.Point(73, 115)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(95, 13)
         Me.Label3.TabIndex = 3
@@ -83,7 +83,7 @@ Partial Class Problema3
         '
         'txtCapital3
         '
-        Me.txtCapital3.Location = New System.Drawing.Point(48, 146)
+        Me.txtCapital3.Location = New System.Drawing.Point(76, 170)
         Me.txtCapital3.Name = "txtCapital3"
         Me.txtCapital3.Size = New System.Drawing.Size(100, 20)
         Me.txtCapital3.TabIndex = 6
@@ -91,7 +91,7 @@ Partial Class Problema3
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(45, 130)
+        Me.Label4.Location = New System.Drawing.Point(73, 154)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(78, 13)
         Me.Label4.TabIndex = 5
@@ -99,16 +99,16 @@ Partial Class Problema3
         '
         'btnCalcular
         '
-        Me.btnCalcular.Location = New System.Drawing.Point(250, 248)
+        Me.btnCalcular.Location = New System.Drawing.Point(266, 267)
         Me.btnCalcular.Name = "btnCalcular"
         Me.btnCalcular.Size = New System.Drawing.Size(75, 23)
-        Me.btnCalcular.TabIndex = 7
+        Me.btnCalcular.TabIndex = 9
         Me.btnCalcular.Text = "Calcular"
         Me.btnCalcular.UseVisualStyleBackColor = True
         '
         'txtGanancia3
         '
-        Me.txtGanancia3.Location = New System.Drawing.Point(432, 146)
+        Me.txtGanancia3.Location = New System.Drawing.Point(414, 170)
         Me.txtGanancia3.Name = "txtGanancia3"
         Me.txtGanancia3.ReadOnly = True
         Me.txtGanancia3.Size = New System.Drawing.Size(100, 20)
@@ -117,7 +117,7 @@ Partial Class Problema3
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(429, 130)
+        Me.Label5.Location = New System.Drawing.Point(411, 154)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(114, 13)
         Me.Label5.TabIndex = 12
@@ -125,7 +125,7 @@ Partial Class Problema3
         '
         'txtGanancia2
         '
-        Me.txtGanancia2.Location = New System.Drawing.Point(432, 107)
+        Me.txtGanancia2.Location = New System.Drawing.Point(414, 131)
         Me.txtGanancia2.Name = "txtGanancia2"
         Me.txtGanancia2.ReadOnly = True
         Me.txtGanancia2.Size = New System.Drawing.Size(100, 20)
@@ -134,7 +134,7 @@ Partial Class Problema3
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(429, 91)
+        Me.Label6.Location = New System.Drawing.Point(411, 115)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(114, 13)
         Me.Label6.TabIndex = 10
@@ -142,7 +142,7 @@ Partial Class Problema3
         '
         'txtGanancia1
         '
-        Me.txtGanancia1.Location = New System.Drawing.Point(432, 68)
+        Me.txtGanancia1.Location = New System.Drawing.Point(414, 92)
         Me.txtGanancia1.Name = "txtGanancia1"
         Me.txtGanancia1.ReadOnly = True
         Me.txtGanancia1.Size = New System.Drawing.Size(100, 20)
@@ -151,7 +151,7 @@ Partial Class Problema3
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(429, 52)
+        Me.Label7.Location = New System.Drawing.Point(411, 76)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(114, 13)
         Me.Label7.TabIndex = 8
@@ -159,15 +159,15 @@ Partial Class Problema3
         '
         'txtGanancias
         '
-        Me.txtGanancias.Location = New System.Drawing.Point(48, 185)
+        Me.txtGanancias.Location = New System.Drawing.Point(76, 209)
         Me.txtGanancias.Name = "txtGanancias"
         Me.txtGanancias.Size = New System.Drawing.Size(100, 20)
-        Me.txtGanancias.TabIndex = 9
+        Me.txtGanancias.TabIndex = 7
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(45, 169)
+        Me.Label1.Location = New System.Drawing.Point(73, 193)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(127, 13)
         Me.Label1.TabIndex = 14
@@ -177,7 +177,7 @@ Partial Class Problema3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(587, 283)
+        Me.ClientSize = New System.Drawing.Size(600, 366)
         Me.Controls.Add(Me.txtGanancias)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txtGanancia3)
@@ -194,6 +194,7 @@ Partial Class Problema3
         Me.Controls.Add(Me.txtCapital1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.lblTitulo)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Problema3"
         Me.ResumeLayout(False)
         Me.PerformLayout()

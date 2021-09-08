@@ -4,17 +4,11 @@
         tingresada = nupTemp.Value
 
         If (tingresada = 0) Then
-            Label1.Hide()
-            Label2.Hide()
-            btnEnviar.Hide()
-            nupTemp.Hide()
-            lblTmayor.Text = tmayor
-            lblTmenor.Text = tmenor
-            lbl33.Show()
-            lbl37.Show()
-            lblTmayor.Show()
-            lblTmenor.Show()
 
+            lblTmayor.Text = "Hay " & tmayor & " Personas con una temperatura mayor a 37°C"
+            lblTmenor.Text = "Hay " & tmenor & " Personas con una temperatura menor a 33°C"
+            tmayor = 0
+            tmenor = 0
 
 
         ElseIf (tingresada > 37) Then
