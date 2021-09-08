@@ -73,6 +73,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalcularEdad.vb" />
     <Compile Include="CalcularGananciaSocio.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
@@ -97,10 +98,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.vb" />
+    <Compile Include="obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.vb" />
     <Compile Include="Problema1.Designer.vb">
       <DependentUpon>Problema1.vb</DependentUpon>
     </Compile>
     <Compile Include="Problema1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Problema2.Designer.vb">
+      <DependentUpon>Problema2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Problema2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Problema4.Designer.vb">
@@ -132,6 +141,9 @@
     <EmbeddedResource Include="Problema1.resx">
       <DependentUpon>Problema1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Problema2.resx">
+      <DependentUpon>Problema2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Problema4.resx">
       <DependentUpon>Problema4.vb</DependentUpon>
     </EmbeddedResource>
@@ -143,6 +155,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\Laboratorio1D8.exe.config" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -153,6 +166,14 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Laboratorio1D8.exe" />
+    <Content Include="bin\Debug\Laboratorio1D8.pdb" />
+    <Content Include="bin\Debug\Laboratorio1D8.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
