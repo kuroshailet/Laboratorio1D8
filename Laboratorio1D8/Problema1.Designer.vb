@@ -111,6 +111,7 @@ Partial Class Problema1
         '
         Me.txtSalarioNeto.Location = New System.Drawing.Point(147, 92)
         Me.txtSalarioNeto.Name = "txtSalarioNeto"
+        Me.txtSalarioNeto.ReadOnly = True
         Me.txtSalarioNeto.Size = New System.Drawing.Size(100, 22)
         Me.txtSalarioNeto.TabIndex = 2
         '
@@ -127,6 +128,7 @@ Partial Class Problema1
         '
         Me.txtSalarioBruto.Location = New System.Drawing.Point(147, 64)
         Me.txtSalarioBruto.Name = "txtSalarioBruto"
+        Me.txtSalarioBruto.ReadOnly = True
         Me.txtSalarioBruto.Size = New System.Drawing.Size(100, 22)
         Me.txtSalarioBruto.TabIndex = 0
         '
