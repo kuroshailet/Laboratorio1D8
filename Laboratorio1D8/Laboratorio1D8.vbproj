@@ -102,6 +102,12 @@
     <Compile Include="Problema1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Problema4.Designer.vb">
+      <DependentUpon>Problema4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Problema4.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Problema5.Designer.vb">
       <DependentUpon>Problema5.vb</DependentUpon>
     </Compile>
@@ -118,6 +124,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Problema1.resx">
       <DependentUpon>Problema1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Problema4.resx">
+      <DependentUpon>Problema4.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Problema5.resx">
       <DependentUpon>Problema5.vb</DependentUpon>
