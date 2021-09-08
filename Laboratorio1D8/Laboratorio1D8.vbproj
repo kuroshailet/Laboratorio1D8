@@ -80,6 +80,7 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CalcularEdad.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -96,10 +97,18 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.vb" />
+    <Compile Include="obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.vb" />
     <Compile Include="Problema1.Designer.vb">
       <DependentUpon>Problema1.vb</DependentUpon>
     </Compile>
     <Compile Include="Problema1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Problema2.Designer.vb">
+      <DependentUpon>Problema2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Problema2.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -110,11 +119,17 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\Laboratorio1D8.Problema1.resources" />
+    <EmbeddedResource Include="obj\Debug\Laboratorio1D8.Resources.resources" />
     <EmbeddedResource Include="Problema1.resx">
       <DependentUpon>Problema1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Problema2.resx">
+      <DependentUpon>Problema2.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\Laboratorio1D8.exe.config" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -125,6 +140,24 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\Laboratorio1D8.vbproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\Laboratorio1D8.vbproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\Laboratorio1D8.vbproj.GenerateResource.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Laboratorio1D8.exe" />
+    <Content Include="bin\Debug\Laboratorio1D8.pdb" />
+    <Content Include="bin\Debug\Laboratorio1D8.xml" />
+    <Content Include="obj\Debug\Laboratorio1D8.exe" />
+    <Content Include="obj\Debug\Laboratorio1D8.pdb" />
+    <Content Include="obj\Debug\Laboratorio1D8.vbproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Laboratorio1D8.xml" />
+    <Content Include="obj\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

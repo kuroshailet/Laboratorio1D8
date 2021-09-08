@@ -1,4 +1,4 @@
-﻿Module Module1
+﻿Module CalcularEdad
 
     Public Sub CalcularEdad(ByVal edad As Integer)
 
