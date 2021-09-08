@@ -36,7 +36,7 @@ Partial Class Problema4
         'lblTmayor
         '
         Me.lblTmayor.AutoSize = True
-        Me.lblTmayor.Location = New System.Drawing.Point(397, 288)
+        Me.lblTmayor.Location = New System.Drawing.Point(345, 242)
         Me.lblTmayor.Name = "lblTmayor"
         Me.lblTmayor.Size = New System.Drawing.Size(134, 13)
         Me.lblTmayor.TabIndex = 16
@@ -46,7 +46,7 @@ Partial Class Problema4
         'lblTmenor
         '
         Me.lblTmenor.AutoSize = True
-        Me.lblTmenor.Location = New System.Drawing.Point(397, 234)
+        Me.lblTmenor.Location = New System.Drawing.Point(345, 188)
         Me.lblTmenor.Name = "lblTmenor"
         Me.lblTmenor.Size = New System.Drawing.Size(134, 13)
         Me.lblTmenor.TabIndex = 15
@@ -56,7 +56,7 @@ Partial Class Problema4
         'lbl37
         '
         Me.lbl37.AutoSize = True
-        Me.lbl37.Location = New System.Drawing.Point(241, 288)
+        Me.lbl37.Location = New System.Drawing.Point(189, 242)
         Me.lbl37.Name = "lbl37"
         Me.lbl37.Size = New System.Drawing.Size(133, 13)
         Me.lbl37.TabIndex = 14
@@ -66,7 +66,7 @@ Partial Class Problema4
         'lbl33
         '
         Me.lbl33.AutoSize = True
-        Me.lbl33.Location = New System.Drawing.Point(241, 234)
+        Me.lbl33.Location = New System.Drawing.Point(189, 188)
         Me.lbl33.Name = "lbl33"
         Me.lbl33.Size = New System.Drawing.Size(134, 13)
         Me.lbl33.TabIndex = 13
@@ -76,7 +76,7 @@ Partial Class Problema4
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(361, 187)
+        Me.Label2.Location = New System.Drawing.Point(309, 141)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(115, 13)
         Me.Label2.TabIndex = 12
@@ -85,7 +85,7 @@ Partial Class Problema4
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(241, 156)
+        Me.Label1.Location = New System.Drawing.Point(189, 110)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(115, 13)
         Me.Label1.TabIndex = 11
@@ -93,7 +93,7 @@ Partial Class Problema4
         '
         'nupTemp
         '
-        Me.nupTemp.Location = New System.Drawing.Point(390, 149)
+        Me.nupTemp.Location = New System.Drawing.Point(338, 103)
         Me.nupTemp.Name = "nupTemp"
         Me.nupTemp.Size = New System.Drawing.Size(61, 20)
         Me.nupTemp.TabIndex = 10
@@ -101,18 +101,18 @@ Partial Class Problema4
         '
         'btnEnviar
         '
-        Me.btnEnviar.Location = New System.Drawing.Point(485, 149)
+        Me.btnEnviar.Location = New System.Drawing.Point(433, 103)
         Me.btnEnviar.Name = "btnEnviar"
         Me.btnEnviar.Size = New System.Drawing.Size(75, 23)
         Me.btnEnviar.TabIndex = 9
-        Me.btnEnviar.Text = "Button1"
+        Me.btnEnviar.Text = "Enviar"
         Me.btnEnviar.UseVisualStyleBackColor = True
         '
         'Problema4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(640, 398)
         Me.Controls.Add(Me.lblTmayor)
         Me.Controls.Add(Me.lblTmenor)
         Me.Controls.Add(Me.lbl37)
