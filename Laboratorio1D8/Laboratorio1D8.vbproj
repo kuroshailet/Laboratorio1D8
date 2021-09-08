@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{A796D941-EE23-4F6C-98E1-43CFC29B813A}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Laboratorio1D8.My.MyApplication</StartupObject>
+    <StartupObject>Laboratorio1D8.Form1</StartupObject>
     <RootNamespace>Laboratorio1D8</RootNamespace>
     <AssemblyName>Laboratorio1D8</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -132,6 +132,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
