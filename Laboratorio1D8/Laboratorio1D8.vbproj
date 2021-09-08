@@ -80,7 +80,6 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -97,10 +96,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Problema2.Designer.vb">
-      <DependentUpon>Problema2.vb</DependentUpon>
+    <Compile Include="Problema1.Designer.vb">
+      <DependentUpon>Problema1.vb</DependentUpon>
     </Compile>
-    <Compile Include="Problema2.vb">
+    <Compile Include="Problema1.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -111,8 +110,8 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Problema2.resx">
-      <DependentUpon>Problema2.vb</DependentUpon>
+    <EmbeddedResource Include="Problema1.resx">
+      <DependentUpon>Problema1.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
